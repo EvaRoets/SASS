@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cssnano": "^5.0.10",
+    "postcss-cli": "^9.0.2"
+  },
+  "scripts": {
+    "minify-css": "postcss /css/main.css > src/css/main.min.css"
+  }
+}
+
+
